@@ -70,7 +70,7 @@ function getStarwarsPersonData() {
           name: p.name
         }));
 
-      console.log(filteredPerson);
+      //console.log(filteredPerson);
     })
     .catch((error) => {
       console.log(error);
